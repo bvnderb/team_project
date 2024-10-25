@@ -31,7 +31,7 @@ body.home {
     font-weight: bold;
 }
 
-.navbar {
+/* .navbar {
     margin: 0;
     padding: 0;
 }
@@ -49,7 +49,7 @@ body.home {
 
 .navbar a:hover {
     color: darkolivegreen;
-}
+} */
 
 hr {
     border: none;
@@ -82,4 +82,28 @@ hr {
     .text_container {
         flex: 1 1 100%;
     }
+}
+
+/* Button styling */
+
+.dropdown .btn {
+    background-color: transparent; /* No background */
+    color: black; /* Black text color */
+    border: none; /* Remove border if needed */
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+    background-color: #f08a07 !important; /* Custom background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Optional: Change text color of dropdown items */
+.dropdown-item {
+    color: black !important; /* Adjust the text color of the items if necessary */
+}
+
+/* Optional: Change hover color for dropdown items */
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Slightly lighter on hover */
 }
