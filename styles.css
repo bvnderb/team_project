@@ -50,3 +50,36 @@ body.home {
 .navbar a:hover {
     color: darkolivegreen;
 }
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+}
+
+.main_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.image_container {
+    flex: 1 1 68%;
+}
+
+.text_container {
+    flex: 1 1 28%;
+}
+
+.image_container img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .image_container,
+    .text_container {
+        flex: 1 1 100%;
+    }
+}
