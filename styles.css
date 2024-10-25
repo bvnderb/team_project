@@ -1,0 +1,109 @@
+body.home {
+    background: rgb(212, 166, 82);
+    background: linear-gradient(130deg, rgba(212, 166, 82, 1) 25%, rgba(240, 138, 7, 1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.top_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(212, 166, 82);
+    background: linear-gradient(130deg, rgba(212, 166, 82, 1) 25%, rgba(240, 138, 7, 1) 100%);
+    padding: 1rem 2rem;
+}
+
+.home_icon a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.home_icon a:hover {
+    color: darkolivegreen;
+}
+
+.home-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* .navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+    margin-left: 1.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    color: darkolivegreen;
+} */
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+}
+
+.main_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.image_container {
+    flex: 1 1 68%;
+}
+
+.text_container {
+    flex: 1 1 28%;
+}
+
+.image_container img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .image_container,
+    .text_container {
+        flex: 1 1 100%;
+    }
+}
+
+/* Button styling */
+
+.dropdown .btn {
+    background-color: transparent; /* No background */
+    color: black; /* Black text color */
+    border: none; /* Remove border if needed */
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+    background-color: #f08a07 !important; /* Custom background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Optional: Change text color of dropdown items */
+.dropdown-item {
+    color: black !important; /* Adjust the text color of the items if necessary */
+}
+
+/* Optional: Change hover color for dropdown items */
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Slightly lighter on hover */
+}
